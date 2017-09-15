@@ -767,7 +767,7 @@
   font-weight: bold;
   font-size: 4px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;}
+  border-radius: 0 0 0 0;}
 	.dot{cursor:pointer;
   height: 3px;
   width: 3px;
@@ -894,6 +894,15 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;}
+  .text {
+  color: #f2f2f2;
+  font-size: 7px;
+  padding: 4px 6px;
+  position: absolute;
+  bottom: 4px;
+  width: 100%;
+  text-align: center;
+}
 }
 
 @-webkit-keyframes fade {
