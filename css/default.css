@@ -89,7 +89,7 @@
 	}
 	dl{ margin:0 0 10px;}
 	dt {font-weight:bold;}
-	dd { margin:0 0 10px 20px;}
+	dd { margin:0 0 5px 10px;}
 	form,
 	fieldset {
 		padding:0;
@@ -466,10 +466,9 @@
 	#pagewidth {width:100%;}
 	#header{
 		position: fixed;
+		float: left;
 		z-index:2;
-		left: 0;
-		top: 0;
-		height:49px;
+		height:60px;
 		width:100%;
 		overflow:hidden;
 		padding:1.143em 0;
@@ -486,9 +485,23 @@
 	#mainNav{text-align:center;}
 	#mainNav li{
 		display:inline-block;
-		margin:0 7px;
+		float: left;
+		margin:0 5px;
+	}
+	#mainNav img
+	{
+	float: left;
+	padding: 0 5px;
+	
+		-moz-box-shadow:   	inset 0 0px 3px rgba(0,0,0,0.75);
+		-webkit-box-shadow: inset 0 0px 3px rgba(0,0,0,0.75);
+		box-shadow:         inset 0 0px 3px rgba(0,0,0,0.75);
+		
+		
+	
 	}
 	#mainNav a{
+		
 		color:#fff;
 		position:relative;
 		display:inline-block;
@@ -506,11 +519,13 @@
 		-webkit-border-radius: 1.47em;
 		-moz-border-radius: 1.47em;
 		border-radius: 1.47em;
+		
+		
 	}
 	#mainNav a span{
 		color:#fff;
 		text-decoration:none;
-		padding:0 1.25em;
+		padding:0 2.00em;
 		display:block;
 		text-shadow: 0px 0 rgba(0,0,0,0.31), 0 1px rgba(0,0,0,0.5), 0px 0 rgba(0,0,0,0.5), 0 0px rgba(0,0,0,0.5);
 		
@@ -553,6 +568,8 @@
 		background-image: -webkit-linear-gradient(bottom, rgb(71,83,101) 0%, rgb(123,145,177) 100%);
 		background-image: -ms-linear-gradient(bottom, rgb(71,83,101) 0%, rgb(123,145,177) 100%);
 
+		
+		
 		background-image: -webkit-gradient(
 			linear,
 			left bottom,
@@ -767,7 +784,7 @@
   font-weight: bold;
   font-size: 4px;
   transition: 0.6s ease;
-  border-radius: 0 0 0 0;}
+  border-radius: 0 3px 3px 0;}
 	.dot{cursor:pointer;
   height: 3px;
   width: 3px;
@@ -894,15 +911,6 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;}
-  .text {
-  color: #f2f2f2;
-  font-size: 7px;
-  padding: 4px 6px;
-  position: absolute;
-  bottom: 4px;
-  width: 100%;
-  text-align: center;
-}
 }
 
 @-webkit-keyframes fade {
@@ -928,6 +936,7 @@ a:hover#menu-icon {
 	}
 	
 body {margin:0;}
+
 
 .topnav {
   position: fixed;
