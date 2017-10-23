@@ -468,10 +468,10 @@
 		position: fixed;
 		float: left;
 		z-index:2;
-		height:60px;
+		height:80px;
 		width:100%;
 		overflow:hidden;
-		padding:1.143em 0;
+		padding:1.5em 0.27em;
 		background:#404751;
 		
 		-moz-box-shadow:   	inset 0 0 0 #fff,
@@ -493,13 +493,20 @@
 	float: left;
 	padding: 0 5px;
 	
-		-moz-box-shadow:   	inset 0 0px 3px rgba(0,0,0,0.75);
-		-webkit-box-shadow: inset 0 0px 3px rgba(0,0,0,0.75);
-		box-shadow:         inset 0 0px 3px rgba(0,0,0,0.75);
+		
 		
 		
 	
 	}
+	
+	.new a{
+	
+		position:relative;
+		display:inline-block;
+		
+	
+	}
+	
 	#mainNav a{
 		
 		color:#fff;
@@ -670,13 +677,14 @@
 	}
 	.slides blockquote:first-child{float:left;}
 	#map{
+		
 		border:1px solid #535d6b;
 		padding:0.428em;
 		background:#798493;
 		margin:0 0 1em;
 	}
 	#map .imgHolder{
-		height:1%;
+		height:500px;
 		overflow:hidden;
 		background:#fff;
 		padding:1px;
@@ -686,6 +694,8 @@
 	}
 	#map .imgHolder img{
 		width:100%;
+	
+	
 	}
 	.form{width:92%;}
 	#testimonials{
