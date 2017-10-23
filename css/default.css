@@ -468,7 +468,7 @@
 		position: fixed;
 		float: left;
 		z-index:2;
-		height:80px;
+		height:60px;
 		width:100%;
 		overflow:hidden;
 		padding:1.5em 0.27em;
@@ -485,19 +485,10 @@
 	#mainNav{text-align:center;}
 	#mainNav li{
 		display:inline-block;
-		float: left;
+		float: center;
 		margin:0 5px;
 	}
-	#mainNav img
-	{
-	float: left;
-	padding: 0 5px;
-	
-		
-		
-		
-	
-	}
+
 	
 	.new a{
 	
@@ -684,7 +675,7 @@
 		margin:0 0 1em;
 	}
 	#map .imgHolder{
-		height:500px;
+		height:100%;
 		overflow:hidden;
 		background:#fff;
 		padding:1px;
@@ -694,7 +685,6 @@
 	}
 	#map .imgHolder img{
 		width:100%;
-	
 	
 	}
 	.form{width:92%;}
