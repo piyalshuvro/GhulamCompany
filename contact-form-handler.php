@@ -31,7 +31,10 @@ if( empty($errors))
 	
 	mail($to,$email_subject,$email_body,$headers);
 	//redirect to the 'thank you' page
-	header('Location: contact-form-thank-you.html');
+	echo '<script language="javascript">';
+echo 'alert("message successfully sent")';
+echo '</script>';
+header('Location: index.html');
 } 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
